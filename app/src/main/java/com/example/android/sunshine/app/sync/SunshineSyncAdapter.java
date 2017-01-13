@@ -248,6 +248,7 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
         final String OWM_WEATHER_ID = "id";
 
         final String OWM_MESSAGE_CODE = "cod";
+        System.out.println("getweatherfronjson");
 
         try {
             JSONObject forecastJson = new JSONObject(forecastJsonStr);
